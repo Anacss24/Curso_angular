@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 25%;
+    height:auto;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    height: 15vh;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.container_img{
+    position: relative; 
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container_input{
+    display: flex;
+    justify-content: center;
+}
+
+.container_botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
