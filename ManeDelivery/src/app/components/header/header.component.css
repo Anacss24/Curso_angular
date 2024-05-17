@@ -1,0 +1,20 @@
+.container-header{
+    background-color: rgba(26, 26, 26, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header{
+    width: 150px;
+    margin-left: 54px;
+}
+
+.header-botao{
+    background-color:rgba(255, 204, 0, 1);
+    border-radius: 35px;
+    width: 100px;
+    height: 32px;
+    border: none;
+    margin-right: 54px;
+}

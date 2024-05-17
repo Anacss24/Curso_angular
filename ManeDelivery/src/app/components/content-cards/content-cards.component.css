@@ -1,0 +1,29 @@
+.titulo-content-cards{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card{
+    width: 250px;
+    background-color: rgba(217, 217, 217, 1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.titulo-card, .texto-card{
+    font-size: 13px;
+    text-align: center;
+    width: 230px;
+}

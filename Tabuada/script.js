@@ -10,15 +10,12 @@ let submit = document.getElementById('botao')
     
     var tabuada = '';
     
-       
     for (i = 1; i <= 10; i++) {
     
-     tabuada += valor + ' x ' + i + ' = ' + (valor * i) + '<br>';
-
+        tabuada += valor + ' x ' + i + ' = ' + (valor * i) + '<br>';
     }
 
     document.getElementById("resposta").innerHTML = tabuada
-   
 });
 
 
